@@ -638,7 +638,8 @@ window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
 (function(){
-	try{
+
+	try{
 
 $(document).ready(function(){
 require(['https://cdn.jsdelivr.net/npm/gsap@1.20.3/TweenMax.min.js'], function() {
@@ -662,16 +663,23 @@ else{$(window).scroll(function(){if($(this).scrollTop()>=500){motion1.play()}els
 //}
 });});
 
-	}
-	catch(e)
-	{
-		Muse.Assert.fail('Error with Widget:Muse Motion - 1 Motion (1.5) ParamHTMLOnDocReady Handler ' + e.toString());
-	}
-})();/* Widget:Muse Motion - 1 Motion (1.5) */
+
+	}
+
+	catch(e)
+
+	{
+
+		Muse.Assert.fail('Error with Widget:Muse Motion - 1 Motion (1.5) ParamHTMLOnDocReady Handler ' + e.toString());
+
+	}
+
+})();/* Widget:Muse Motion - 1 Motion (1.5) */
 Muse.Utils.resizeHeight('.browser_width');/* resize height */
 Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
 (function(){
-	try{
+
+	try{
 
 $(document).ready(function(){pic=new Image();pic.src="Add File";if(6==1){document.getElementById('bgmu').innerHTML="<li><a href='./index.html' target='_self'>Anasayfa</a></li>"}
 else if(6==2){document.getElementById('bgmu').innerHTML="<li><a href='./index.html' target='_self'>Anasayfa</a></li><li><a href='./gayrimenkul.html' target='_self'>Gayrimenkul</a></li>"}
@@ -696,12 +704,18 @@ if(0==1){$(".buttonopen").hover(function(){$(this).css("background-image","url(A
 if(0==1){var open=TweenLite.to(".buttonopen",0.5,{rotation:360,ease:Power1.easeOut,transformOrigin:'50% 50%'});open.pause();$('.buttonopen').on("mouseenter",function(){open.play()}).on("mouseleave",function(){open.reverse()})}
 if(1==1){var close=TweenLite.to(".overlay-close",0.5,{rotation:360,ease:Power1.easeOut,transformOrigin:'50% 50%'});close.pause();$('.overlay-close').on("mouseenter",function(){close.play()}).on("mouseleave",function(){close.reverse()})}})})
 
-	}
-	catch(e)
-	{
-		Muse.Assert.fail('Error with Widget:BIG Menu - Scale (2.6) ParamHTMLOnDocReady Handler ' + e.toString());
-	}
-})();/* Widget:BIG Menu - Scale (2.6) */
+
+	}
+
+	catch(e)
+
+	{
+
+		Muse.Assert.fail('Error with Widget:BIG Menu - Scale (2.6) ParamHTMLOnDocReady Handler ' + e.toString());
+
+	}
+
+})();/* Widget:BIG Menu - Scale (2.6) */
 Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
 Muse.Utils.initWidget('.MenuBar', ['#bp_infinity', '#bp_960'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
 Muse.Utils.fullPage('#page');/* 100% height page */
