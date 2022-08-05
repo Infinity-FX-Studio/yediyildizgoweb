@@ -1,3 +1,5 @@
+/*Classic Elements Start*/
+
 *
 {
     margin: 0;
@@ -10,3 +12,53 @@ html
     width: 100vw;
     height: 100vh;
 }
+
+body
+{
+    background-color: black;
+}
+
+/*Classic Elements End*/
+
+/*Header Start*/
+
+ul.headerList
+{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+ul.headerNav
+{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-right: 4rem;
+}
+
+ul.headerMedia
+{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-right: 2rem;
+}
+
+li.headerElement
+{
+    list-style-type: none;
+    text-decoration: none;
+    margin: .5rem;
+    margin-top: 2rem;
+    font-size: 1.1rem;
+    color: white;
+}
+
+li.headerElement a
+{
+    color: white;
+}
+
+/*Header End*/
