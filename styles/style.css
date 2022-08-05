@@ -18,6 +18,17 @@ body
     background-color: black;
 }
 
+p
+{
+    color: white;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
 /*Classic Elements End*/
 
 /*Header Start*/
@@ -27,23 +38,8 @@ ul.headerList
     align-items: center;
     display: flex;
     flex-direction: row;
+    margin-right: 1rem;
     justify-content: flex-end;
-}
-
-ul.headerNav
-{
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    margin-right: 4rem;
-}
-
-ul.headerMedia
-{
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    margin-right: 2rem;
 }
 
 li.headerElement
@@ -56,10 +52,83 @@ li.headerElement
     color: white;
 }
 
-li.headerElement a
+img.mainLogo
 {
-    text-decoration: none;
-    color: white;
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 1rem;
 }
 
 /*Header End*/
+
+/*Welcome Start*/
+
+div.welcomePage
+{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.welcomeText
+{
+    padding: 8rem;
+    padding-left: 0;
+    padding-right: 0;
+    justify-content: center;
+    height: 25rem;
+    width: 50rem;
+    text-align: center;
+    background-image: url(../components/images/border_mavi.svg);
+    background-size: cover;
+
+}
+div.welcomeText p
+{
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+/*Welcome End*/
+
+/*Main Start*/
+
+/*Gayrimenkul Div Start*/
+
+div.gayrimenkul
+{
+    background-color: white;
+    height: 90vh;
+    width: 100vw;
+}
+
+img.gayrimenkulFoto
+{
+    width: 40vw;
+    height: 70vh;
+    
+}
+
+hr.gayrimenkulHr
+{
+    background-color: #0071BC;
+    border: none;
+    height: .3rem;
+    width: 3rem;
+}
+
+h2#gayrimenkul
+{
+    color: black;
+}
+
+div.gayrimenkul p
+{
+    color: black;
+}
+
+/*Gayrimenkul Div End*/
+
+/*Main End*/
