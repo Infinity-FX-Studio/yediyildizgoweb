@@ -18,6 +18,11 @@ body
     background-color: black;
 }
 
+main
+{
+    background-color: white;
+}
+
 a
 {
     text-decoration: none;
@@ -100,7 +105,6 @@ div.welcomeText p
 div.gayrimenkul
 {
     display: flex;
-    background-color: white;
     height: 90vh;
     width: 100vw;
     flex-direction: row;
@@ -108,7 +112,8 @@ div.gayrimenkul
 
 img.gayrimenkulFoto
 {
-    margin-left: 2rem;
+    margin-left: 8rem;
+    margin-right: 0;
     margin-top: 4rem;
     display: flex;
     width: 40vw;
@@ -138,13 +143,93 @@ div.gayrimenkul p
 article.gayrimenkulArticle
 {
     height: auto;
-    width: 40vw;
+    width: 30vw;
     display: flex;
     flex-direction: column;
     margin-top: 14rem;
     margin-left: 1rem;
 }
 
+article.gayrimenkulArticle h2 + p + h3 + p + p + p + a
+{
+    color: black;
+    margin-top: 1rem;
+}
+
 /*Gayrimenkul Div End*/
 
 /*Main HTML End*/
+
+/*Footer Start*/
+
+footer
+{
+    width: 100vw;
+    height: 40vh;
+    color: white;
+}
+
+div.footerContainer
+{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 30vh;
+    background-color: #25292c;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+div.footerContainer div.about
+{
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    width: 23vw;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+div.footerContainer div.contact
+{
+    height: 30vh;
+    width: 23vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+div.footerContainer div.contact ul li
+{
+    display: flex;
+    margin: 1rem;
+}
+
+h4.header4
+{
+    margin-bottom: 2rem;
+}
+
+div.footerContainer div.address
+{
+    height: 30vh;
+    width: 23vw;
+}
+
+div.footerContainer div.socialMedia
+{
+    height: 30vh;
+    width: 23vw;
+}
+
+div.footerBottom
+{
+    width: 100vw;
+    height: 10vh;
+    background-color: #0d0e0f;
+}
+
+/*Footer End*/
