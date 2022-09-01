@@ -210,19 +210,30 @@ div.footerContainer div.contact ul li
 
 h4.header4
 {
-    margin-bottom: 2rem;
+    position: absolute;
+    margin-top: -8rem;
 }
 
 div.footerContainer div.address
 {
     height: 30vh;
     width: 23vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
 
 div.footerContainer div.socialMedia
 {
     height: 30vh;
     width: 23vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
 
 div.footerBottom
@@ -230,6 +241,36 @@ div.footerBottom
     width: 100vw;
     height: 10vh;
     background-color: #0d0e0f;
+}
+
+ul.socialMedia
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.footerList
+{
+    margin-top: 3rem;
+}
+
+li.mediaElements
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 2rem;
+    color: white;
+}
+
+li.mediaElements a i
+{
+    color: white;
 }
 
 /*Footer End*/
